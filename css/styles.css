@@ -95,7 +95,15 @@ h1{
 
 /* ======= MEDIA QUERY TO ENABLE RESPONSIVENESS ==== */
 
-@media (max-width:800px){
+@media (max-width:480px){
+    .container, h3, br{
+        width: 400px;
+        
+    }
+    
+}
+
+/* @media (max-width:800px){
     .container{
         margin-top: 30px;
         padding: 10px;
@@ -113,4 +121,4 @@ h1{
         padding-left: 10px;
         margin-right: 10px;
     }
-}
+} */
