@@ -96,12 +96,16 @@ h1{
 /* ======= MEDIA QUERY TO ENABLE RESPONSIVENESS ==== */
 
 @media (max-width:760px){
-    .container, h3, #tags{
+    .holder,  #tags{
         width: 400px;
-        margin-top: 30px;
+        margin-top: 30px 20px;
     }
     img{
-        margin-top: 20px; 
+        margin-top: 20px 25px; 
+    }
+    .container, h3{
+        margin-top: 10px;
+        width: 350px;
     }
     
 }
