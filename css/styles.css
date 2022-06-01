@@ -34,11 +34,11 @@ body{
 }
 
 img{
-    width: 200px;
+    width: 100px;
     margin: auto;
     position: absolute;
     top: 5px;
-    border-radius: 100px;
+    border-radius:50px;
     border: 3px solid green;
 
 }
@@ -109,13 +109,5 @@ h1{
        flex-wrap: wrap;
        flex-shrink: 0;
        flex-direction: row;
-    }
-
-    img{
-        width: 100px;
-        margin: auto;
-        position: absolute;
-        top: 5px;
-        border-radius: 50px;
     }
 }
